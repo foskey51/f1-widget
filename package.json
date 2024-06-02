@@ -1,0 +1,41 @@
+{
+  "name": "SpeedTrackF1",
+  "version": "1.0.0",
+  "description": "A custom widget to display f1 race schedule",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "electron-builder": "electron-builder"
+  },
+  "author": "Adithya,Dhanush",
+  "license": "ISC",
+  "build": {
+    "appId": "com.foskey51.SpeedTrackF1",
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ],
+      "icon": "./icon.png"
+    }
+  },
+  "repository": "https://github.com/foskey51/f1-widget",
+  "publish": {
+    "provider": "github",
+    "releaseType": "release"
+  },
+  "devDependencies": {
+    "electron": "^30.0.9",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.6"
+  }
+}
