@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.card {
+    background-color: #fe0203;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    -webkit-app-region: drag; /* Makes the entire card draggable */
+    -webkit-user-select: none;
+}
+
+.card img {
+    height: 100px;
+    border-radius: 5px;
+    -webkit-app-region: no-drag; /* Prevents the image from being draggable */
+}
+
+.card .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+}
+
+.dates{
+    color: rgb(255, 255, 255);
+
+}
+
+#raceName{
+    color: rgb(253, 253, 253);
+    font-family: Arial, 'Helvetica', sans-serif ;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.schedule {
+    background-color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -5px;
+    grid-column: span 2;
+    color: white;
+}
+
+.schedule div {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 0;
+}
+
+.schedule .day {
+    color: red;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.schedule .date {
+    font-weight: bold;
+    font-family: 'Arial';
+}
+
+.schedule .session {
+    color: rgb(248, 244, 244);
+    letter-spacing: 0.6px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.schedule .time {
+    color: #ffffff;
+    text-align: right;
+}
+
+.details .loc {
+    font-size: 9pt;
+    letter-spacing: 0.4pt;
+    color: rgb(255, 255, 255);
+    margin-left: +0.20em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.details .dates {
+    font-size: 0.8rem;
+    margin-left: +0.20em;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+}
+
+.details img {
+    height: auto;
+    max-width: 30%;
+    -webkit-user-drag: no-drag;
+    -webkit-app-region: no-drag; /* Prevents the flag image from being draggable */
+}
