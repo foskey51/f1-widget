@@ -4,10 +4,10 @@
 A sleek and handy F1 race schedule widget built using HTML, CSS, JavaScript, and Electron.js. Stay updated with the latest race schedules directly from your desktop.
 
 ## Screenshots
-<p align="center">
-      <img src="./Screenshot/shot1.png" align="left">
-      <img src="./Screenshot/shot2.png">
-      <img src="./Screenshot/shot3.png" align="right">
+<p align = "center">
+      <img src="./Screenshot/shot1.png" align="center">
+      <img src="./Screenshot/shot2.png"align="center">
+      <img src="./Screenshot/shot3.png" align="center">
 </p>
 
 ## Features
