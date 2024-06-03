@@ -3,7 +3,12 @@
 
 A sleek and handy F1 race schedule widget built using HTML, CSS, JavaScript, and Electron.js. Stay updated with the latest race schedules directly from your desktop.
 
-![Widget Screenshot](path-to-your-screenshot.png)
+## Screenshots
+<div style="display: flex; overflow-x: auto;">
+    <img src="./Screenshot/shot1.png" alt="Screenshot 1" style="height:300px;width: 300px; margin-right: 10px;">
+    <img src="./Screenshot/shot2.png" alt="Screenshot 2" style="height: 320px;width: 800px; margin-right: 10px;">
+    <img src="./Screenshot/shot3.png" alt="Screenshot 3" style="height: 320px;width: 900px; margin-right: 10px;">
+</div>
 
 ## Features
 
@@ -12,12 +17,16 @@ A sleek and handy F1 race schedule widget built using HTML, CSS, JavaScript, and
 - Race timings sync with user timezone
 - Circuit map displayed for each race
 
+## Installation
+
+Follow these steps to set up and run the F1 Race Schedule Widget on your local machine.
+
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) (v14.x or later)
 - [Git](https://git-scm.com/)
 
-### Installation and usage
+### Steps
 
 1. **Clone the repository**:
     ```sh
@@ -53,4 +62,4 @@ Feel free to enhance and customize the content as needed!
 
 **Developer note**
 
-*This is a fun project that I made I know that the application size too large, I know it minimizes on ctrl+D or any similar command, limited by my time and tech knowledge I could not achieve the intent of making a widget using ElectronJS. If you can solve the above issues feel free to [contact me.](https://github.com/foskey51/f1-widget/releases/)*
+*This is a fun project that I made I know that the application size too large, I know it minimizes on ctrl+D or any similar command, limited by my time and tech knowledge I could not achieve the intent of making a widget using ElectronJS. If you can solve the above issues feel free to [contact me](mailto:your-dhanushhs51@gmail.com)*.
