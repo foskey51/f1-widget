@@ -6,7 +6,8 @@ A sleek and handy F1 race schedule widget built using HTML, CSS, JavaScript, and
 ## Screenshots
 <p align = "center">
       <img src="./Screenshot/shot1.png" align="center">
-      <img src="./Screenshot/shot2.png"align="center">
+      <img src="./Screenshot/shot2.png"align="center">&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="./Screenshot/shot3.png"align="center">
 </p>
 
 ## Features
